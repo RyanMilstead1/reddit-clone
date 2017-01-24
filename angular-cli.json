@@ -17,10 +17,14 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "mobile": false,
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/semantic-ui-css/semantic.js"
+      ],
       "styles": [
+        "../node_modules/semantic-ui-css/semantic.css",
         "styles.css"
       ],
-      "scripts": [],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
